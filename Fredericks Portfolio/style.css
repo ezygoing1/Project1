@@ -49,6 +49,7 @@ label {
 #card {
     font-family: "helvetica neue", sans-serif;
     padding: 30px 0px;
+    
 } 
 .title {
     text-align: center;
@@ -73,6 +74,30 @@ label {
     text-decoration: none;
 }
 
+/* Card Project end */
+
+/* About Mw section start */
+
+#aboutme {margin-bottom: 25px;}
+.img-wrap{width:100%}
+.img-wrap img{
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 10px #999999;
+    display:center;       
+}
+h2 {
+    font-family:"Apple Chancery", cursive;
+    display:center;
+}
+.me {
+        text-align:center;
+        width:100%;
+        display:center;
+        font-family:"Apple Chancery", cursive;
+        font-size: 26px
+    }
+/* End of About Mw section start */
 
 @media only screen and (max-width: 500px) {
     label {
