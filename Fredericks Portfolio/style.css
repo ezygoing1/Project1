@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    }
+* 
 html,body {
 width: 100%;
     height: 100%;
@@ -34,7 +31,30 @@ label {
     font-size: 26px;
     line-height:70px;
     display: none;
+    width: 26 px;
+    float: right;
 }
 #toggle {
     display:none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        clear: right;
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
 }
